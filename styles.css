@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #6F6AF7;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.navbar .site-logo{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin : 1%;
+}
+
+.navbar .site-logo a{
+    color: white;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar ul {
+    display: inline;
+    margin-left: 10%;
+}
+
+
+/* .navbar .nav-links ul{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar ul li .search-box{
+    border-radius:6px;
+    height:10%;
+}
+
+.navbar .hamberger-menu{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: white;
+    margin-left:30%;
+}
+
+
+.main-container{
+    margin-left: 10%;
+    padding-top: 10%;
+    display: flex;
+}
+
+.main-container .image-container{
+    padding-left: 10px;
+    /* height: 100px;*/
+    display: inline;
+    border-radius: 5px;
+    width: 200px; 
+}
+
+.main-container .textarea-container textarea{
+    margin-left: 200px;
+    height: 200px;
+    width: 700px;
+}
+
+.chat-support{
+    position: fixed;
+    margin-left: 1200px;
+    padding-top: 200px;
+}
