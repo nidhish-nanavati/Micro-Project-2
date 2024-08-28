@@ -48,13 +48,11 @@
 
 .navbar ul li form{
     background-color: white;
-    border-radius: 20px;
-    line-height: 25px;
+    border-radius: 6px;
 }
 
 .navbar ul li .search-box{
-    /* outline: none; */
-    border-radius: 20px;
+    outline: none;
     border: 0px white;
     text-indent: 10px;
 }
@@ -71,10 +69,9 @@
 
 .main-container{
     padding-top: 10%;
-    margin-left: 7%;
+    margin-left: 5%;
     display: inline-block;
-    /* width: 40%; */
-    width: 86%;
+    width: 90%;
     /* display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -82,11 +79,11 @@
 }
 
 .main-container .image-container{
-    border-radius: 10px;
+    border-radius: 5px;
     /* display: inline; */
     display: inline-block;
     height: 300px;
-    width: 28%;
+    width: 400px;
 }
 
 .main-container .image-container img{
@@ -99,30 +96,20 @@
 }
 
 
-.main-container textarea{
-    /* margin: 10px;
-    padding: 5px; */
+.main-container .textarea-container{
+    margin: 10px;
+    padding: 5px;
     display: inline-block;
     vertical-align: top;
-    width: 70%;
-    padding: 1% 1%;
-    /* margin-left: 5%; */
-    min-width: 500px;
+    margin-left: 5%;
+    width: 400px;
     margin: 0;    
-    min-height: 300px;
+    height: 300px;
+    width: 70%;
     background-color: #E5D8FF;
     border-radius: 5px;
-    resize: none;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 51.82px;
-    text-align: left; 
 }
 
-
-.main-container .textarea-container textarea{
-
-}
 .main-container .textarea-container .text{
     font-family: DM Sans;
     font-weight: 400;
@@ -139,6 +126,7 @@
     position: absolute;
     display: block;
     cursor: pointer;
+    
 }
 
 .chat-support img{
